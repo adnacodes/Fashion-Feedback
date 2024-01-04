@@ -1,0 +1,13 @@
+name: fashionenv
+
+dependencies:
+  - pandas
+  - pip
+  - python=3.9
+  - scikit-learn
+  - spacy
+  - numpy
+  - rich
+  - flask
+  - flask-cors
+  - requests
