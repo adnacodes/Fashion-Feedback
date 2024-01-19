@@ -1,14 +1,15 @@
-from flask import Flask, render_template
+from flask import Flask
 import os
 
 path = os.getcwd()
 parent = os.path.dirname(path)
 
-app = Flask(__name__, template_folder=parent + '/frontend/public')
+app = Flask(__name__, template_folder=parent + '/frontend')
+
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return {}
 
 if __name__ == '__main__':
     app.debug = True

@@ -10,4 +10,4 @@ dependencies:
   - rich
   - flask
   - flask-cors
-  - requests
+  - requestsc
