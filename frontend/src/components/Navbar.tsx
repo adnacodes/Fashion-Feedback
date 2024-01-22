@@ -51,15 +51,21 @@ function Navbar() {
                             <Link href="/how-it-works">How it works</Link>
                         </li>
                         <li onClick={() => setMenuOpen(false)} className='flex items-center py-4'>
-                            <button className='border bg-slate-300  py-3 px-8 whitespace-nowrap items-center justify-center rounded-full hover:bg-yellow-600 text-black'>Sign In</button>
+                            <button className='border bg-slate-300  py-3 px-8 whitespace-nowrap items-center justify-center rounded-full hover:bg-yellow-600 text-black'>
+                                <Link href="/sign-in">Sign In</Link>
+                            </button>
                         </li>
                         <li onClick={() => setMenuOpen(false)} className='flex items-center py-4'>
-                            <button className='border bg-slate-300 py-3 px-8 whitespace-nowrap rounded-full hover:bg-yellow-600 text-black'>Sign Up</button>
+                            <button className='border bg-slate-300 py-3 px-8 whitespace-nowrap rounded-full hover:bg-yellow-600 text-black'>
+                                <Link href="/sign-up">Sign Up</Link>
+                            </button>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <p className='text-black flex flex-row justify-center whitespace-nowrap items-center pt-10 text-2xl lg:text-3xl font-extralight'>Fashion Feedback</p>
+                    <p className='text-black flex flex-row justify-center whitespace-nowrap items-center pt-10 text-2xl lg:text-3xl font-extralight'>
+                        <Link href='/' onClick={() => setMenuOpen(false)}>Fashion Feedback</Link>
+                    </p>
                 </div>
             </div>
         </header>
