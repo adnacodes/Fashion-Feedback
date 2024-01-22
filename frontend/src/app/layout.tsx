@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className='bg-[#2C1A36]'>
+        <main className='flex-1'>
           <Navbar/>
           {children}
         </main>
