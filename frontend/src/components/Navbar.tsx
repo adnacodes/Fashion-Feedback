@@ -19,7 +19,7 @@ function Navbar() {
     const toggleMenu = () => setMenuOpen(!menuOpen);
     return(
         <header>
-            <nav className='fixed w-full h-16 bg-[#D9D9D9]'>
+            <nav className='fixed z-10 w-full h-16 bg-[#D9D9D9]'>
                 <div className="flex items-center justify-between px-4 h-full w-full">
                     <div className='pl-12'>
                         <FiMenu onClick={toggleMenu} className='cursor-pointer h-6 w-6 text-black'></FiMenu>
