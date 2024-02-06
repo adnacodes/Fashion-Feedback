@@ -31,7 +31,6 @@ def yearly_peaks(x, y, threshold=0.8):
             peaks_per_year.append(False)
     return peaks_per_year
 
-
 #taking user input for the search term
 user_input = input("Enter the search term: ")
 
