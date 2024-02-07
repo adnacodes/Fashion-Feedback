@@ -67,11 +67,11 @@ plt.show()
 periodicity_per_year = yearly_peaks(year_values, interest_values)
 
 # Output periodicity for each year
-for year, periodic in enumerate(periodicity_per_year, start=1):
-    if(periodic):
-        print(f"Year {year}: Periodic")
-    else:
-        print(f"Year {year}: Non-periodic")
+# for year, periodic in enumerate(periodicity_per_year, start=1):
+#    if(periodic):
+#        print(f"Year {year}: Periodic")
+#    else:
+#        print(f"Year {year}: Non-periodic")
   
 # Final conclusion: Output if item is seasonal 
 countperi = 0;
