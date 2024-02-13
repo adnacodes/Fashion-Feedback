@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Jan  6 15:31:37 2024
-
+delete this file - updated file is called trendAnalysis.py
 @author: sriva
 """
 from pytrends.request import TrendReq
