@@ -77,7 +77,6 @@ trends_data = pytrends.interest_over_time()
 interest_values = trends_data[user_input].values.astype(int)
 year_values = np.linspace(2004,2024, interest_values.shape[0])
 
-
 #plotting the graph with pandas dataframe
 #plt.plot(trends_data.index, trends_data[user_input])
 #plt.title(f'Pandas dataframe: Google Search Trends for "{user_input}"')
